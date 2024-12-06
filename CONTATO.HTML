@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THIAGO BRAGA MENDANHA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="contato.html">
+    <div class="container">  <!--Area de navegaçao -->
+        <nav>
+            <ul>
+                <li>
+                   <a href="index.html">PÁGINA INICIAL</a>
+                </li>
+                <li>
+                      <a href="EXPERIENIA.HTML">EXPERIENCIA</a>
+                </li>
+                <li>
+                    <a href="CURRICULO-THIAGOBRAGA.pdf" download> CURRICULO PDF</a>
+                </li>
+            </ul>
+        </nav>
+    
+        <header>
+            <div class="nome">
+                <h1>Entre em contato comigo!!</h1>
+                <p>"Envie um e-mail para entrar em contato comigo. Preencha as informações abaixo e eu responderei o mais breve possível!"</p>
+            </div>
+        </header>
+        <!-- foi criado as classes para estilizaçao especifica-->
+        <form class="formulario" action="https://formsubmit.co/naoseibrahaa@gmail.com" method="POST">
+            <div class="mensemail">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div class="menstel">
+                <label for="telefone">Telefone(whatsApp):</label>
+                <input type="tel" name="telefone" id="telefone" required>
+            </div>
+            <div class="menssagem">
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks.html">
+            </div>
+            <div class="botao">
+                <button type="submit">ENVIAR</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
